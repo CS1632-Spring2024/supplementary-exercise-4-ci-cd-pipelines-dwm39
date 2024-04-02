@@ -43,6 +43,9 @@
   </distributionManagement>
 
   <properties>
+    <sonar.organization>cs1632-spring2024</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,11 +59,6 @@
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>5.11.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.github.wonsunahn</groupId>
-      <artifactId>cs1632-cicd-pipelines-dwm39</artifactId>
-      <version>1.0</version>
     </dependency>
 
     <dependency>
